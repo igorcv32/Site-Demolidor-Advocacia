@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+Allow: /sobre.html
+Allow: /areas.html
+Allow: /equipe.html
+Allow: /contato.html
+Allow: /privacidade.html
+Allow: /assets/
+Disallow: /admin/
+Disallow: /private/
+Disallow: /assets/css/
+Disallow: /assets/js/
+Disallow: /assets/images/
+Sitemap: https://nelsonmurdock.com/sitemap.xml 

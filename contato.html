@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Nelson & Murdock</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=SF+Pro+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>Nelson & Murdock</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="areas.html">Áreas de Atuação</a></li>
+                <li><a href="equipe.html">Nossa Equipe</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="privacidade.html">Privacidade</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-image">
+            <img src="assets/blind-justice.png" alt="Estátua da Justiça">
+        </div>
+        <div class="hero-content">
+            <h1>Entre em Contato</h1>
+            <p>Estamos aqui para ajudar com suas necessidades jurídicas</p>
+        </div>
+    </section>
+
+    <!-- Contato Section -->
+    <section class="contato">
+        <div class="container">
+            <div class="contato-content">
+                <div class="contato-info">
+                    <h2>Informações de Contato</h2>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Endereço</h3>
+                            <p>Rua 42, 123 - Hell's Kitchen</p>
+                            <p>Nova York - NY</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Telefone</h3>
+                            <p>(212) 555-0123</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>E-mail</h3>
+                            <p>contato@nelsonmurdock.com</p>
+                        </div>
+                    </div>
+                    <div class="horario-atendimento">
+                        <h3>Horário de Atendimento</h3>
+                        <p>Segunda a Sexta: 9h às 18h</p>
+                        <p>Sábado: 9h às 13h</p>
+                        <p>Domingo: Fechado</p>
+                    </div>
+                </div>
+                <div class="contato-form-container">
+                    <h2>Envie sua Mensagem</h2>
+                    <form class="contato-form">
+                        <div class="form-group">
+                            <input type="text" id="nome" name="nome" placeholder="Nome completo" required>
+                            <div class="error-message">Por favor, insira seu nome completo</div>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="E-mail" required>
+                            <div class="error-message">Por favor, insira um e-mail válido</div>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="telefone" name="telefone" placeholder="Telefone">
+                            <div class="error-message">Por favor, insira um telefone válido</div>
+                        </div>
+                        <div class="form-group">
+                            <select id="assunto" name="assunto" required>
+                                <option value="">Selecione o assunto</option>
+                                <option value="criminal">Direito Criminal</option>
+                                <option value="civil">Direito Civil</option>
+                                <option value="trabalhista">Direito Trabalhista</option>
+                                <option value="empresarial">Direito Empresarial</option>
+                                <option value="outro">Outro</option>
+                            </select>
+                            <div class="error-message">Por favor, selecione um assunto</div>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="mensagem" name="mensagem" placeholder="Sua mensagem" required></textarea>
+                            <div class="error-message">Por favor, insira sua mensagem</div>
+                        </div>
+                        <button type="submit" class="submit-btn">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mapa Section -->
+    <section class="mapa">
+        <div class="container">
+            <h2>Nossa Localização</h2>
+            <div class="mapa-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.6187899999997!2d-73.9997!3d40.7607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855c6480299%3A0x55194ec5a1ae072e!2sHell's%20Kitchen%2C%20New%20York%2C%20NY!5e0!3m2!1sen!2sus!4v1647123456789!5m2!1sen!2sus" 
+                    width="100%" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>Nelson & Murdock</h3>
+                    <p>Defendendo a justiça desde 2000</p>
+                </div>
+                <div class="footer-links">
+                    <a href="privacidade.html">Política de Privacidade</a>
+                    <a href="contato.html">Contato</a>
+                </div>
+                <div class="footer-social">
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Nelson & Murdock. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 

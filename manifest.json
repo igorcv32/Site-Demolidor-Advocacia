@@ -1,0 +1,63 @@
+{
+    "name": "Nelson & Murdock - Escritório de Advocacia",
+    "short_name": "Nelson & Murdock",
+    "description": "Escritório de advocacia especializado em direito criminal, civil, trabalhista e empresarial",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#1a1a1a",
+    "theme_color": "#8d0d0d",
+    "icons": [
+        {
+            "src": "assets/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "assets/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "assets/screenshots/home.png",
+            "sizes": "1280x720",
+            "type": "image/png",
+            "platform": "wide",
+            "label": "Página Inicial"
+        }
+    ],
+    "categories": ["business", "legal"],
+    "lang": "pt-BR",
+    "dir": "ltr",
+    "prefer_related_applications": false,
+    "related_applications": [],
+    "shortcuts": [
+        {
+            "name": "Início",
+            "url": "/",
+            "icons": [{ "src": "assets/icons/home.png", "sizes": "192x192" }]
+        },
+        {
+            "name": "Contato",
+            "url": "/contato.html",
+            "icons": [{ "src": "assets/icons/contact.png", "sizes": "192x192" }]
+        },
+        {
+            "name": "Áreas de Atuação",
+            "url": "/areas.html",
+            "icons": [{ "src": "assets/icons/areas.png", "sizes": "192x192" }]
+        }
+    ],
+    "scope": "/",
+    "iarc_rating_id": "e84b072d-71b3-4d3e-86ae-31a8ce4e53b7",
+    "splash_pages": null,
+    "routes": [
+        "/",
+        "/sobre.html",
+        "/areas.html",
+        "/equipe.html",
+        "/contato.html",
+        "/privacidade.html"
+    ]
+} 
